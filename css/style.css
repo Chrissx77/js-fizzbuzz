@@ -10,6 +10,10 @@ body{
     background-color:blueviolet;
 }
 
+.title{
+    font-size: 100px;
+}
+
 .container{
     width: 85%;
     margin: 0 auto;
@@ -25,5 +29,6 @@ body{
     background-color: blue;
     font-size: 2rem;
     color: white;
-    
+    border-radius: 10px;
+
 }
