@@ -8,28 +8,13 @@ for (let i = 1; i <= 1000; i++) {
     //metto a video tutti i restanti
 
     if (i % 3 === 0 && i % 5 === 0) {
-        const square = document.createElement("div");
-        square.classList.add("square");
-        square.append("FizzBuzz");
-        square.style.backgroundColor = "green"
-        container.append(square);
+        console.log("FizzBuzz");
     } else if (i % 5 === 0) {
-        const square = document.createElement("div");
-        square.classList.add("square");
-        square.append("Fizz");
-        square.style.backgroundColor = "red";
-        container.append(square);
+        console.log("Buzz");
     } else if (i % 3 === 0) {
-        const square = document.createElement("div");
-        square.classList.add("square");
-        square.append("Buzz");
-        square.style.backgroundColor = "orange";
-        container.append(square);
+        console.log("Fizz");
     } else {
-        const square = document.createElement("div");
-        square.classList.add("square");
-        square.append(i);
-        container.append(square);
+        console.log(i);
     }
 
 }

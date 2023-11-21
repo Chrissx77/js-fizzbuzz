@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin-top: 50px;
+    background-color:blueviolet;
+}
+
+.title{
+    font-size: 100px;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.square{
+    margin-top: 1%;
+    width: calc(100% / 7 - 10px);
+    height: 100px;
+    background-color: blue;
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
+
+}
